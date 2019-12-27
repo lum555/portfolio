@@ -6,12 +6,13 @@
   margin-top: 80px;
   border-radius: 5px;
   h3 {
+    opacity: 70%;
     margin: 0 auto;
     text-align: center;
     padding-top: 32px;
     letter-spacing: 2px;
     font-family: 'Saira Condensed', sans-serif;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
     padding-bottom: 20px;
     width: 75%;
   }
