@@ -1,0 +1,25 @@
+.icons {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 32px;
+  i {
+    font-size: 64px;
+    color: black;
+  }
+  .icon {
+    text-align: center;
+    padding: 8px;
+    h4 {
+      font-family: 'Saira Condensed', sans-serif;
+    }
+  }
+  .arrows {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
