@@ -26,3 +26,5 @@ gem 'font-awesome-sass', '~> 5.12.0'
 gem 'sass-globbing'
 ## Middleman sprockets
 gem 'middleman-sprockets'
+
+gem 'middleman-dotenv', '~> 2.0'

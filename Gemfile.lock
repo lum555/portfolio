@@ -79,6 +79,9 @@ GEM
       servolux
       tilt (~> 2.0)
       uglifier (~> 3.0)
+    middleman-dotenv (2.0.0)
+      dotenv (>= 2.0)
+      middleman-core (>= 4.0)
     middleman-gh-pages (0.3.1)
       rake (> 0.9.3)
     middleman-sprockets (4.1.1)
@@ -124,6 +127,7 @@ DEPENDENCIES
   font-awesome-sass (~> 5.12.0)
   jquery-middleman
   middleman (~> 4.2)
+  middleman-dotenv (~> 2.0)
   middleman-gh-pages
   middleman-sprockets
   sass-globbing
