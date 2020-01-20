@@ -25,3 +25,19 @@
   }
 }
 
+.project-cards {
+  height: 500px;
+}
+
+.project-row {
+  display: flex;
+  width: 100%;
+}
+
+.project-card {
+  width: 50%;
+  padding: 16px;
+  img {
+    width: 100%;
+  }
+}
