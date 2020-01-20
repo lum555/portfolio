@@ -28,3 +28,5 @@ gem 'sass-globbing'
 gem 'middleman-sprockets'
 
 gem 'middleman-dotenv', '~> 2.0'
+
+gem 'cloudinary', '~> 1.12.0'
