@@ -10,6 +10,7 @@
     text-align: center;
     padding: 8px;
     transition: 0.5s;
+    opacity: 0.8;
     h4 {
       font-family: 'Saira Condensed', sans-serif;
     }
@@ -76,4 +77,5 @@
 
 .transform:hover {
   transform: scale(1.02);
+  opacity: 1;
 }
