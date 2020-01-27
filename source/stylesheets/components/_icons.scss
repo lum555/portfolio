@@ -43,6 +43,21 @@
   }
 }
 
+.small-icon {
+  i {
+    font-size: 24px;
+    color: #FBFFFE;
+    opacity: 0.2;
+    transition: 0.5s;
+  }
+}
+
+.small-icon:hover {
+  i {
+    opacity: 1;
+  }
+}
+
 .top-margin {
   margin-top: 32px;
 }
