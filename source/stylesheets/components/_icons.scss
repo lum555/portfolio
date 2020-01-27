@@ -2,7 +2,6 @@
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  margin-top: 32px;
   i {
     font-size: 64px;
     color: black;
@@ -22,4 +21,35 @@
     border-left: 1px solid rgba(0, 0, 0, 0.2);
     border-right: 1px solid rgba(0, 0, 0, 0.2);
   }
+  .linkedin {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    i {
+      color: #0072b1;
+    }
+  }
+  .git {
+    i {
+      color: #333;
+    }
+  }
+  .gmail {
+    i {
+      color: #B23121
+    }
+  }
+}
+
+.top-margin {
+  margin-top: 32px;
+}
+
+.top-margin-small {
+  margin-top: 16px;
+}
+
+.footer-icon {
+  margin-bottom: 32px;
 }
