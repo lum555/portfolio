@@ -39,6 +39,7 @@
   padding: 16px;
   display: flex;
   position: relative;
+  transition: 0.5s;
   img {
     width: 100%;
   }
@@ -59,4 +60,7 @@
       object-fit: fill;
       height: 173px;
   }
+}
+.project-card:hover {
+  transform: scale(1.02);
 }
