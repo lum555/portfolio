@@ -9,6 +9,7 @@
   .icon {
     text-align: center;
     padding: 8px;
+    transition: 0.5s;
     h4 {
       font-family: 'Saira Condensed', sans-serif;
     }
@@ -52,4 +53,8 @@
 
 .footer-icon {
   margin-bottom: 32px;
+}
+
+.transform:hover {
+  transform: scale(1.02);
 }
