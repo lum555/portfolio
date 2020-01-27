@@ -25,17 +25,14 @@
   }
 }
 
-.project-cards {
-  height: 500px;
-}
-
 .project-row {
   display: flex;
   width: 100%;
 }
 
-.project-card {
+a {
   width: 50%;
+  .project-card {
   padding: 16px;
   display: flex;
   position: relative;
@@ -63,4 +60,5 @@
 }
 .project-card:hover {
   transform: scale(1.02);
+}
 }
