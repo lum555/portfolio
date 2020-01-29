@@ -1,6 +1,7 @@
 .card-container {
   background-color: #FBFFFE;
-  width: 700px;
+  max-width: 800px;
+  min-width: 300px;
   height: 100%;
   margin: 0 auto;
   margin-top: 80px;
@@ -25,12 +26,6 @@
     text-align: center;
   }
 }
-
-.project-row {
-  display: flex;
-  width: 100%;
-}
-
 a {
   width: 50%;
   .project-card {
@@ -39,7 +34,7 @@ a {
   position: relative;
   transition: 0.5s;
   img {
-    width: 100%;
+    width: 318px;
   }
   h4 {
       font-family: 'Saira Condensed', sans-serif;
@@ -62,4 +57,13 @@ a {
 .project-card:hover {
   transform: scale(1.02);
 }
+}
+
+.project-cards {
+  width: 100%;
+}
+
+.center {
+  justify-content: center;
+  margin: 0 auto;
 }
